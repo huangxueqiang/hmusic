@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_marginTop="2dp"
+      android:layout_marginBottom="2dp"
+      android:layout_width="1dp"
+      android:layout_height="match_parent"
+      android:background="@drawable/line_shape"
+		/>
+
+<!-- From: file:/D:/Android/HMusic/app/src/main/res/layout/line_vertical.xml -->

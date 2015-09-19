@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<CheckBoxPreference
+			android:key="search"
+			android:title="@string/pref_title_search"
+			android:defaultValue="true"/>
+	<CheckBoxPreference
+			android:dependency="search"
+			android:key="search_title"
+			android:title="@string/pref_title_search_title"
+			android:defaultValue="true"/>
+	<CheckBoxPreference
+			android:dependency="search"
+			android:key="search_artist"
+			android:title="@string/pref_title_search_artist"
+			android:defaultValue="true"/>
+	<CheckBoxPreference
+			android:dependency="search"
+			android:key="search_album"
+			android:title="@string/pref_title_search_album"
+			android:defaultValue="true"/>
+</PreferenceScreen>

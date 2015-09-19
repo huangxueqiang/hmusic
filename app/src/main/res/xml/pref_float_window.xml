@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<CheckBoxPreference
+			android:key="float_window"
+			android:title="@string/pref_title_float_window"
+			android:summary="@string/pref_description_float_window"
+			android:defaultValue="true"/>
+	<CheckBoxPreference
+			android:dependency="float_window"
+			android:key="float_window_position"
+			android:title="@string/pref_title_float_window_position"
+			android:defaultValue="true"/>
+</PreferenceScreen>

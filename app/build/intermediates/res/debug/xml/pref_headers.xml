@@ -1,0 +1,21 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<!-- These settings headers are only used on tablets. -->
+
+	<header
+			android:fragment="com.android.hhuimie.hmusic.activities.SettingsActivity$NotificationPreferenceFragment"
+			android:title="@string/pref_title_notification"/>
+	<header
+			android:fragment="com.android.hhuimie.hmusic.activities.SettingsActivity$FloatWindowPreferenceFragment"
+			android:title="@string/pref_title_float_window"/>
+	<header
+			android:fragment="com.android.hhuimie.hmusic.activities.SettingsActivity$SensorPreferenceFragment"
+			android:title="@string/pref_title_sensor"/>
+	<header
+			android:fragment="com.android.hhuimie.hmusic.activities.SettingsActivity$PlugPreferenceFragment"
+			android:title="@string/pref_title_plug"/>
+	<header
+			android:fragment="com.android.hhuimie.hmusic.activities.SettingsActivity$SearchPreferenceFragment"
+			android:title="@string/pref_title_search"/>
+</preference-headers>
+<!-- From: file:/D:/Android/HMusic/app/src/main/res/xml/pref_headers.xml -->

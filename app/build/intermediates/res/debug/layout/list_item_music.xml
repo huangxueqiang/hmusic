@@ -1,0 +1,77 @@
+<LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+
+	<RelativeLayout android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:descendantFocusability="blocksDescendants">
+		<ImageView
+				android:id="@+id/album_image"
+				android:layout_width="64dip"
+				android:layout_alignParentLeft="true"
+				android:layout_centerInParent="true"
+				android:layout_height="64dip"
+				android:src="@drawable/item"
+				android:clickable="false"/>
+
+		<TextView
+				android:id="@+id/song_duration"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:singleLine="true"
+				android:layout_alignParentRight="true"
+				android:layout_alignParentTop="true"
+				android:layout_margin="5dp"
+				android:textSize="15sp"
+				android:gravity="right"
+				android:text="@string/list_item_song_duration"
+				android:clickable="false"
+				/>
+		<TextView
+				android:id="@+id/song_title"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignParentTop="true"
+				android:layout_toRightOf="@id/album_image"
+				android:layout_toLeftOf="@id/song_duration"
+				android:layout_margin="5dp"
+				android:focusable="true"
+				android:singleLine="true"
+				android:ellipsize="marquee"
+				android:scrollHorizontally="true"
+				android:marqueeRepeatLimit="marquee_forever"
+				android:text="@string/list_item_song_name"
+				android:textSize="17sp"
+				android:textStyle="bold"
+				android:clickable="false"
+				/>
+
+		<ImageButton
+				android:id="@+id/expandable_toggle_button"
+				android:paddingTop="10dp"
+				android:paddingLeft="10dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignParentBottom="true"
+				android:layout_alignParentRight="true"
+				android:src="@drawable/button_slide_selector"
+				android:background="@color/transparent"
+				/>
+		<TextView
+				android:id="@+id/song_artist_or_album"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_alignParentBottom="true"
+				android:layout_toLeftOf="@id/expandable_toggle_button"
+				android:singleLine="true"
+				android:layout_toRightOf="@id/album_image"
+				android:layout_margin="5dp"
+				android:textSize="15sp"
+				android:text="@string/list_item_song_artist"
+				android:clickable="false"
+				/>
+	</RelativeLayout>
+	<include layout="@layout/slide_menu"/>
+</LinearLayout><!-- From: file:/D:/Android/HMusic/app/src/main/res/layout/list_item_music.xml -->

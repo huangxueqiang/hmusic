@@ -1,0 +1,41 @@
+<resources>
+	<style name="LoadingTheme"
+	       parent="android:Theme.Holo.Light.NoActionBar">
+		<item name="android:windowActionBar">false</item>
+		<item name="android:windowTitleSize">0dp</item>
+	</style>
+	<!-- Application theme. -->
+	<style name="AppTheme"
+	       parent="android:Theme.Holo.Light">
+		<!-- All customizations that are NOT specific to a particular API-level can go here. -->
+	</style>
+	<style name="MyActionBar"
+	       parent="@android:style/Widget.Holo.Light.ActionBar">
+		<item name="android:background">@color/white</item>
+	</style>
+	<style name="MyProgressBar"
+	       parent="android:Theme.Dialog">
+		<item name="android:alertDialogStyle">@style/CustomAlertDialogStyle</item>
+		<item name="android:windowBackground">@color/transparent</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:gravity">center</item>
+	</style>
+	<style name="CustomAlertDialogStyle">
+		<item name="android:bottomBright">@color/transparent</item>
+		<item name="android:bottomDark">@color/transparent</item>
+		<item name="android:bottomMedium">@color/transparent</item>
+		<item name="android:centerBright">@color/transparent</item>
+		<item name="android:centerDark">@color/transparent</item>
+		<item name="android:centerMedium">@color/transparent</item>
+		<item name="android:fullBright">@color/transparent</item>
+		<item name="android:fullDark">@color/transparent</item>
+		<item name="android:topBright">@color/transparent</item>
+		<item name="android:topDark">@color/transparent</item>
+	</style>
+	<style name="translucent">
+		<item name="android:windowBackground">@color/translucent</item>
+		<item name="android:windowIsTranslucent">true</item>
+	</style>
+
+</resources>

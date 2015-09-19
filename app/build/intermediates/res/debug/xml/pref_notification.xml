@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<CheckBoxPreference
+			android:key="notification"
+			android:title="@string/pref_title_notification"
+			android:summary="@string/pref_description_notification"
+			android:defaultValue="true"/>
+</PreferenceScreen><!-- From: file:/D:/Android/HMusic/app/src/main/res/xml/pref_notification.xml -->

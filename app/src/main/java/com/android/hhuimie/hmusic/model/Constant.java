@@ -1,0 +1,48 @@
+package com.android.hhuimie.hmusic.model;
+
+public class Constant {
+	public static final String EXTRA_LOVE_ID = "com.android.hhuimie.hmusic.extra_love_id";
+	public static final String EXTRA_LOVE_LEVEL = "com.android.hhuimie.hmusic.extra_love_level";
+	public static final String EXTRA_LOVE_TO_REDUCE = "com.android.hhuimie.hmusic.extra_love_to_reduce";
+	public static final String EXTRA_DELETE_POSITION = "com.android.hhuimie.hmusic.extra_delete_position";
+	public static final String EXTRA_CURRENT_TIME = "com.android.hhuimie.hmusic.extra_current_time";
+	public static final String EXTRA_CURRENT_POSITION = "com.android.hhuimie.hmusic.extra_current_position";
+	public static final String EXTRA_CURRENT_SONG = "com.android.hhuimie.hmusic.extra_current_song";
+	public static final String EXTRA_CURRENT_DELETE = "com.android.hhuimie.hmusic.extra_current_delete";
+	public static final String EXTRA_SORT_CHOICE = "com.android.hhuimie.hmusic.extra_sort_choice";
+	public static final String EXTRA_SORT_IS_REVERSE = "com.android.hhuimie.hmusic.extra_sort_is_reverse";
+	public static final String EXTRA_CONTROL = "com.android.hhuimie.hmusic.extra_control";
+	public static final String EXTRA_NOT_CONTROL = "com.android.hhuimie.hmusic.extra_control";
+	public static final String EXTRA_CONTROL_STATE = "com.android.hhuimie.hmusic.extra_control_state";
+	public static final String EXTRA_PLAY_STATUS = "com.android.hhuimie.hmusic.extra_play_status";
+	public static final String EXTRA_TIME_CHANGED = "com.android.hhuimie.hmusic.extra_time_changed";
+	public static final String ACTION_CONTROL = "com.android.hhuimie.hmusic.action_control";
+	public static final String ACTION_NOT_CONTROL = "com.android.hhuimie.hmusic.action_not_control";
+	public static final String ACTION_INTENT = "com.android.hhuimie.hmusic.action_intent";
+	public static final String ACTION_PLAY = "com.android.hhuimie.hmusic.action_play";
+	public static final String ACTION_CURRENT_MSG = "com.android.hhuimie.hmusic.action_current_msg";
+	public static final String ACTION_CURRENT_TIME = "com.android.hhuimie.hmusic.action_current_time";
+	public static final String ACTION_PLAY_STATUS = "com.android.hhuimie.hmusic.action_play_status";
+	public static final String ACTION_TIME_CHANGED = "com.android.hhuimie.hmusic.action_time_changed";
+	public static final String ACTION_DELETE = "com.android.hhuimie.hmusic.action_delete";
+	public static final String ACTION_LOVE = "com.android.hhuimie.hmusic.action_love";
+	public static final String ACTION_CONTROL_STATE = "com.android.hhuimie.hmusic.action_control_state";
+	public static final String ACTION_EXIT_SAVE = "com.android.hhuimie.hmusic.action_exit_save";
+	public static final String ACTION_SETTING= "com.android.hhuimie.hmusic.action_setting";
+	public static final int IS_PLAYING = 1;
+	public static final int IS_PAUSED = 0;
+	public static final int CONTROL_PLAY = 0;
+	public static final int CONTROL_NOT_PLAY = 0;
+	public static final int CONTROL_NOT_PREVIOUS = 1;
+	public static final int CONTROL_NOT_NEXT = 2;
+	public static final int CONTROL_NOT_EXIT = 3;
+	public static final int CONTROL_SENSOR = 3;
+	public static final int CONTROL_PREVIOUS = 1;
+	public static final int CONTROL_NEXT = 2;
+	public static final int CONTROL_STATE = -1;
+	public static final int ON_TITLE_LIST = 0;
+	public static final int ON_ARTIST_LIST = 1;
+	public static final int ON_ALBUM_LIST = 2;
+	public static final int ON_DATE_LIST = 3;
+	public static final int ON_LAST_PLAY_LIST = 4;
+}

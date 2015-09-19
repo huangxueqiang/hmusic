@@ -1,0 +1,10 @@
+<resources>
+	<string name="app_name">HMusic</string>
+	<string name="list_item_song_name">歌曲名称</string>
+	<string name="list_item_song_artist">未知艺术家</string>
+	<string name="list_item_song_duration">00.00</string>
+	<string name="song_title">未知歌曲</string>
+	<string name="song_duration1">00:00</string>
+	<string name="action_search">Search</string>
+	<string name="action_restore">还原默认设置</string>
+</resources>

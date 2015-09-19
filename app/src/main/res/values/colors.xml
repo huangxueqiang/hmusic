@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="white">#ffffffff</color>
+	<color name="transparent">#00000000</color>
+	<color name="green_light">#ff99cc00</color>
+	<color name="orange_light">#ffffbb33</color>
+	<color name="blue_light">#ff33b5e5</color>
+	<color name="slide_menu_normal">#ff2b2b2b</color>
+	<color name="slide_menu_pressed">#FF121212</color>
+	<color name="slide_menu_text">#FFCBCBCB</color>
+	<color name="slide_menu_separtor">#ff5a6164</color>
+	<color name="line_shape_center">#95959595</color>
+	<color name="translucent">#e0000000</color>
+	<color name="material_blue_500">#5677fc</color>
+	<color name="ripple">#F06292</color>
+	<color name="accent">#E91E63</color>
+	<color name="accent_pressed">#C2185B</color>
+</resources>

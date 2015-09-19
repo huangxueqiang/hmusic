@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!--notification-->
+	<string name="pref_header_notification">通知</string>
+	<string name="pref_title_notification">启用通知功能</string>
+	<string name="pref_description_notification">启用后，播放音乐时，在系统通知栏上显示通知，可操作</string>
+
+	<!--float window-->
+	<string name="pref_header_float_window">悬浮窗</string>
+	<string name="pref_title_float_window">启用悬浮窗功能</string>
+	<string name="pref_description_float_window">启用后，在应用之外的界面显示悬浮按钮，可拖动，可操作</string>
+	<string name="pref_title_float_window_position">记住悬浮窗位置</string>
+
+	<!--sensor-->
+	<string name="pref_header_sensor">重力感应</string>
+	<string name="pref_title_sensor">启用重力感应</string>
+	<string name="pref_description_sensor">启用后，手机翻转正面朝下，一秒内翻转回正面朝上，播放下一曲</string>
+
+	<!--plug-->
+	<string name="pref_header_plug">耳机监控</string>
+	<string name="pref_title_plug">启用耳机监控</string>
+	<string name="pref_description_plug">启用后，播放状态下，耳机断开时暂停，重连接时播放</string>
+	
+	<!--search-->
+	<string name="pref_header_search">搜索</string>
+	<string name="pref_title_search">启用搜索功能</string>
+	<string name="pref_title_search_title">搜索标题</string>
+	<string name="pref_title_search_artist">搜索艺术家</string>
+	<string name="pref_title_search_album">搜索专辑</string>
+</resources>
